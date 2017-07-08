@@ -3,11 +3,22 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<system.webServer>
+		<httpProtocol>
+			<customHeaders>
+				<add name="Access-Control-Allow-Origin" value="*"/>
+				<add name="Access-Control-Allow-Methods" value="GET,PUT,POST,DELETE,OPTIONS"/>
+				<add name="Access-Control-Allow-Headers" value="Content-Type"/>
+			</customHeaders>
+		</httpProtocol>
+	</system.webServer>
+</configuration>
 </head>
 
 <body>
 <h1>Fame and the Rise of the Artist Digital Render</h1>
-<script src="https://gist.github.com/Jalalhejazi/5653347.js"></script>
 <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.2/build/openseadragon/openseadragon.min.js"></script>
 <script type="text/javascript">
